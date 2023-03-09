@@ -55,7 +55,7 @@ namespace ColourPicker.ViewModel
 
         public void CalculateHex()
         {
-            Hex = "#" + Red.ToString("X2") + Green.ToString("X2") + Blue.ToString("X2");
+            Hex = $"#{Red.ToString("X2")}{Green.ToString("X2")}{Blue.ToString("X2")}";
             InputValue = Hex;
 
         }
